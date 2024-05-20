@@ -11,7 +11,7 @@ Solution URL: https://www.frontendmentor.io/solutions/social-link-profile-cX7wx-
 
 Live Site URL: [[https://vercel.com/rocioizqs-projects/social-link-profile-main-jy66](https://social-link-profile-main-jy66.vercel.app/)](https://faq-accordion-main-ashen.vercel.app/)
 
-- [Frontend Mentor Page](https://www.frontendmentor.io/profile/rocioizq)
+- [Frontend Mentor Page](https://www.frontendmentor.io/solutions/faq-accordion-vv7qVzwowd)
 - [GitHub Pages](https://github.com/rocioizq)
 - [Vercel](https://vercel.com/rocioizqs-projects)
 
