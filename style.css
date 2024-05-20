@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(assets/images/background-pattern-desktop.svg) no-repeat;
+    background-size: 100% auto;
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.accordion {
+    background-color: #ffff;
+    width: 600px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.accordion .title {
+    display: flex;
+    gap: 20px;
+}
+
+.accordion .title h1 {
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.accordion .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion h2 {
+    color: hsl(292, 42%, 14%);
+    font-size: 1em;
+}
+
+.accordion .question img {
+    cursor: pointer;
+}
+
+.accordion p {
+    color: hsl(0, 2%, 53%);
+    font-size: .9em;
+}
+
+.hidden {
+    display: none;
+}
+
+.accordion hr {
+    border: 1px solid hsl(0, 4%, 95%);
+}
+
+@media(max-width: 565px) {
+    .accordion {
+        width: 400px;
+    }
+}
+
+@media(max-width: 400px) {
+    .accordion {
+        width: 350px;
+    }
+}
