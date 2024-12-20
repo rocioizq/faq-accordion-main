@@ -1,19 +1,14 @@
-const plus = document.querySelectorAll(".plus");
-const minus = document.querySelectorAll(".minus");
-const text = document.querySelectorAll(".text");
+const questions = document.querySelectorAll(".question");
 
-for (let i = 0; i < plus.length; i++) {
-    plus[i].addEventListener("click", function() {
-        plus[i].classList.toggle("hidden");
-        minus[i].classList.toggle("hidden");
-        text[i].classList.toggle("hidden");
+questions.forEach(function (question) {
+  const btn = question.querySelector(".question-btn");
+  btn.addEventListener("click", function () {
+    questions.forEach(function (item) {
+      if (item !== question) {
+        item.classList.remove("show-text");
+      }
     });
-}
 
-for (let i = 0; i < plus.length; i++) {
-    minus[i].addEventListener("click", function() {
-        plus[i].classList.toggle("hidden");
-        minus[i].classList.toggle("hidden");
-        text[i].classList.toggle("hidden");
-    });
-}
+    question.classList.toggle("show-text");
+  });
+});
