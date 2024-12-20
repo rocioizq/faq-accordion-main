@@ -7,7 +7,8 @@
 Thanks for checking out this front-end coding challenge.
 
 ## Links
-Solution URL: https://www.frontendmentor.io/solutions/social-link-profile-cX7wx-fbt1
+Solution URL: [https://www.frontendmentor.io/solutions/social-link-profile-cX7wx-fbt1
+](https://www.frontendmentor.io/solutions/faq-accordion-vv7qVzwowd)
 
 Live Site URL: https://faq-accordion-main-ashen.vercel.app/
 
